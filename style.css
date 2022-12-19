@@ -1,0 +1,84 @@
+.areatotale{
+    width: auto;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bordototale{
+    width: 300px;
+    height: 480px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 100px;
+    background-color: black;
+}
+
+.bordototale img{
+
+    width: 100%;
+    height: 100%px;
+    object-fit: cover;
+    border-radius: 20px;
+      
+}
+
+
+  .bordototale img:hover {  
+    opacity: 0.4;
+    
+  }
+
+  .savecard{
+    background-color: red;
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 180px;
+    border-radius:40px;
+    padding: 10px;
+    transition: all 2s;
+
+  }
+
+  .savecard:hover{
+    
+    transform: translateY(30px); 
+  }
+
+  .west{
+    position: absolute;
+    bottom: 180px;
+    left: 650px;
+    background-color:rgba(255, 255, 255, 0.54);
+    padding: 10px;
+    border-radius: 20px;
+    transition: all 2s;
+  }
+
+  .west:hover{
+    transform: translateY(-20px);
+  }
+
+  .download{
+    position: absolute;
+    bottom: 180px;
+    left: 830px;
+    background-color:rgba(255, 255, 255, 0.54);
+    padding: 10px;
+    border-radius: 20px;
+    transition: all 2s;
+  }
+
+  .download:hover{
+    transform: translateY(-20px);
+  }
+
+  
+
